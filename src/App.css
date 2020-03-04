@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.Bowling-header {
+  background-color: #4c5841;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.roll{
+  border-radius: 50%;
+  background: #a7de84;;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  font-weight: bold;
+  color: #26941f;
+  cursor: pointer;
+  margin: auto;
+  outline: none;
+}
+.frame{
+  width: 80px;
+  height: 80px;
+  border: 1px solid white;
+  /* display: inline-block; */
+  float: left;
+  padding: 10px;
+  position: relative;
+}
+.frames{
+  margin: 3rem 0 2rem 0;
+}
+.first{
+  left:5px;
+  bottom: 5px;
+  position: absolute;
+}
+.second,.strike{
+  right: 5px;
+  bottom: 5px;
+  position: absolute;
+}
+.first,.second,.frameName,.strike{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.frameName{
+  color: #cbf5b5;
+}
+.score{
+  color: aqua;
+}
