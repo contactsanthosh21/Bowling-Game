@@ -16,7 +16,6 @@ const ScoreBoard = ({rolls}) => {
   };
 
   for (let frame = 0; frame < 10; frame++) {
-
     if(isStrike(pointer)){
         score += bonusPoint + rolls[pointer+1] + rolls[pointer+2];
         pointer++;
